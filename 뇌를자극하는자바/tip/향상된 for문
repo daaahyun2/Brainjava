@@ -1,0 +1,18 @@
+public class Test_args {
+
+	public static void main(String[] args) {
+		
+		System.out.println(args[0]);
+		System.out.println(args[1]);
+		
+		이거나
+		
+		for(int i=0; i<args.length; i++)
+			System.out.println(args[i]);
+	
+		이것을 향상된 for문< 리스트로 만들어서 출력함 1.5버전 이상부터 가능
+		
+		for(String xx:args)
+			System.out.println(xx);
+			
+			
