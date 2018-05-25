@@ -1,0 +1,2 @@
+ERROR: JDWP Unable to get JNI 1.2 environment
+//버그 여서, 마지막단에 System.exit(0); 붙이면, 사라짐!

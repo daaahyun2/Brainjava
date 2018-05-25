@@ -9,11 +9,18 @@ public class PersonInfo {
 		//person = new Person();
 		
 		//String 매개변수 1개있는 생성자 호출하여 객체생성
-		person = new Person("홍길동");
+		//person = new Person("홍길동");
 		
 		//String 매개변수 int 매개변수 있는 생성자 호출하여 객체생성
-		person = new Person("홍길동",20);		
-		person.showPerson();
+		//person = new Person("홍길동",20);	
+		
+		// int 매개변수 String 매개변수 있는 생성자 호출하여 객체생성
+		person = new Person(20,"홍길동");	
+		
+		//메소드호출
+		
+		//person.showPerson();
+		System.out.println(person);
 	}
 
 }

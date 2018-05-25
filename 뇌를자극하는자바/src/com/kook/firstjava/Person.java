@@ -22,9 +22,22 @@ public class Person {
 		this.age=age;
 	}
 	
+	//매개변수 2개있는 생성자
+		public Person(int age,String name) {
+			this.age=age;
+			this.name=name;
+		}
+	
 	public void showPerson() {
 		System.out.println("이름:"+name+" 나이:"+age);
 
+	}
+	
+	public void showPerson(Person obj) {
+		System.out.println("이름:"+obj.name+" 나이:"+obj.age);
+		System.out.println("showPerson(Person obj) 메소드호출");
+		obj.name="김철수";
+		obj.age=10;
 	}
 
 }
